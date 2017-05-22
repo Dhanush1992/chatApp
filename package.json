@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Dhanush1992/chatApp/issues"
   },
-  "homepage": "https://github.com/Dhanush1992/chatApp#readme"
+  "homepage": "https://github.com/Dhanush1992/chatApp#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.1"
+  }
 }

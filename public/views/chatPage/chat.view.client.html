@@ -1,0 +1,11 @@
+<div ng-app="chatApp">
+    <div ng-controller="chat.controller.client">
+        <div ng-repeat="message in messages">
+            <strong>{{message.user.name}}:</strong>
+            <span>{{message.data}}</span>
+        </div>
+        <form ng-submit="send()">
+            <input ng-model="textbox">
+        </form>
+    </div>
+</div>
