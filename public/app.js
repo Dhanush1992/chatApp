@@ -2,5 +2,5 @@
  * Created by dhanush on 5/22/17.
  */
 (function (){
-    angular.module("chatApp", ['ngRoute','chat']);
+    angular.module("chatApp", ['ngRoute']);
 })();

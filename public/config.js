@@ -8,12 +8,15 @@
     function Config($routeProvider) {
         $routeProvider
             .when("/", {
-                templateUrl: "views/home/chat.view.client.html",
+                templateUrl: "views/joinPage/join.view.client.html",
+                controller: "joinController",
+                controllerAs: "model"
+            })
+            .when("/chat", {
+                templateUrl: "views/chatPage/chat.view.client.html",
                 controller: "chatController",
                 controllerAs: "model"
             })
-
-
             .otherwise({
                 redirectTo: "/"
             });
