@@ -1,1 +1,2 @@
-"A simple chat app"
+"A simple chat app built on socket.io"
+
